@@ -1,1 +1,55 @@
 /* Poner sus estilos acá */
+body {
+    background-color: #0e1017;
+    color: #e3f2fd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+div {
+    border-width: 2px;
+    border-color: #0e1017;
+}
+
+label, input, select{
+    display: block;
+}
+
+form {
+    margin: auto;
+    width: 350px;
+    border: 3px solid #56565e;
+    padding: 20px;
+    background-color: #25272f;
+    border-radius: 10px;
+}
+
+input, select{
+    border: 2px solid #474950;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #0e1017;
+    color: #e3f2fd;
+}
+
+button{
+    margin-top: 15px;
+    background-color: #9338a3;
+    border-radius: 5px;
+    border-width: 0;
+    width: 100%;
+    padding: 10px;
+    color: #e3f2fd;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #7d308a;
+}
+
